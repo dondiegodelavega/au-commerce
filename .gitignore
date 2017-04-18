@@ -2,4 +2,6 @@ node_modules
 .idea
 .DS_STORE
 .vscode
-scripts
+scripts/app-bundle.js
+scripts/app-bundle.js.map
+scripts/vendor-bundle.js
