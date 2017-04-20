@@ -1,0 +1,5 @@
+TO UPDATE ALL DEPENDENCIES :
+
+http://stackoverflow.com/questions/42607597/how-to-properly-update-the-library-parts
+
+AND RUN NMP INSTALL.
