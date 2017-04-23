@@ -1,6 +1,6 @@
 # au-commerce
 
-An e-commerce platform developed using aurelia-cli 0.27.0 and ES Next.
+An e-commerce platform developed using aurelia-cli 0.27.0 and TS.
  
 ## Setup
 
