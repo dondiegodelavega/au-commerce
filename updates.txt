@@ -3,3 +3,39 @@ TO UPDATE ALL DEPENDENCIES :
 http://stackoverflow.com/questions/42607597/how-to-properly-update-the-library-parts
 
 AND RUN NMP INSTALL.
+
+---
+
+CONVERT TO SCSS
+
+1.aurelia.json
+
+  "cssProcessor": {
+    "id": "sass",
+    "displayName": "Sass",
+    "fileExtension": ".scss",
+    "source": "src/**/*.scss"
+  },
+
+
+2.package.json
+
+devdependencies :
+"gulp-sass": "^3.1.0",
+
+3.process-css.js
+
+import gulp from 'gulp';
+import sourcemaps from 'gulp-sourcemaps';
+import sass from 'gulp-sass';
+import project from '../aurelia.json';
+import {build} from 'aurelia-cli';
+
+export default function processCSS() {
+  return gulp.src(project.cssProcessor.source)
+        .pipe(sourcemaps.init())
+        .pipe(sass().on('error', sass.logError))
+        .pipe(build.bundle());
+}
+
+-----
