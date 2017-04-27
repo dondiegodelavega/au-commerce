@@ -5,6 +5,8 @@ export class App {
 
     configureRouter(config: RouterConfiguration, router: Router){
         config.title = 'AuC';
+        config.options.pushState = true;
+
         config.map([
             { route: '',              moduleId: './pages/home/home',    name: 'home', title: 'Home'},
             { route: 'catalog/:id',   moduleId: './pages/catalog/catalog', name: 'catalog'},
