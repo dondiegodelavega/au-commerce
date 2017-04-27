@@ -13,6 +13,8 @@ export class App {
             { route: 'content/:id',   moduleId: './pages/content/content', name: 'content'}
         ]);
 
+        config.mapUnknownRoutes('./pages/not-found/not-found.html');
+
     this.router = router;
   }
 }
