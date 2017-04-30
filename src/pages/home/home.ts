@@ -8,11 +8,11 @@ export class Home {
         this.service = service;
     }
 
-    myData;
+    scrollBanners;
+
     activate(){
-        this.service.getList().then(data => {
-            this.myData = data;
-            console.log(data);
+        this.service.getScrollBanners().then(data => {
+            this.scrollBanners = data;
         });
     }
 

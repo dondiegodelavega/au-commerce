@@ -43,3 +43,8 @@ export default function processCSS() {
 install http fetch
 https://ilikekillnerds.com/2016/08/adding-aurelia-fetch-client-aurelia-cli-project/
 
+
+//-------------------
+config file
+
+https://github.com/Vheissu/Aurelia-Configuration/blob/master/README.md#get-started

@@ -1,0 +1,14 @@
+{
+  "local": {
+    "routes": {
+      "app_root": "http://localhost:9000/",
+      "api_root": "http://jazznco/api/portal/"
+    }
+  },
+  "server": {
+    "routes": {
+      "app_root": "https://www.jazznco.com/api/portal",
+      "api_root": "https://www.jazznco.com/"
+    }
+  }
+}
