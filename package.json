@@ -13,7 +13,9 @@
     "aurelia-configuration": "^1.0.17",
     "aurelia-fetch-client": "^1.1.2",
     "bluebird": "^3.4.1",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.2.1",
+    "lightslider": "^1.1.6",
     "requirejs": "^2.3.2",
     "text": "github:requirejs/text#latest",
     "whatwg-fetch": "^2.0.3"

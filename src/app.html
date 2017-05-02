@@ -1,9 +1,10 @@
 <template>
+    <require from="font-awesome/css/font-awesome.css"></require>
     <require from="./app.css"></require>
 
-    <app-header></app-header>
-
-    <router-view></router-view>
-
-    <app-footer></app-footer>
+    <div id="main-container">
+        <app-header></app-header>
+        <router-view></router-view>
+        <app-footer></app-footer>
+    </div>
 </template>

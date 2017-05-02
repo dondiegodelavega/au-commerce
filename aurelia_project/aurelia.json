@@ -118,6 +118,29 @@
           "aurelia-templating",
           "aurelia-templating-binding",
           "jquery",
+          {
+            "name": "lightslider",
+            "path": "../node_modules/lightslider/dist",
+            "main": "js/lightslider.min",
+            "deps": ["jquery"],
+            "resources": [
+              "css/lightslider.min.css",
+              "img/controls.png"
+            ]
+          },
+          {
+            "name": "font-awesome",
+            "path": "../node_modules/font-awesome",
+            "main": "css/font-awesome.css",
+            "resources": [
+              "css/font-awesome.css",
+              "/fonts/fontawesome-webfont.woff2",
+              "/fonts/FontAwesome.otf",
+              "/fonts/fontawesome-webfont.eot",
+              "/fonts/fontawesome-webfont.svg",
+              "/fonts/fontawesome-webfont.ttf"
+            ]
+          },
           "aurelia-fetch-client",
           "text",
           {

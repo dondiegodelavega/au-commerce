@@ -1,4 +1,13 @@
 <template>
+    <require from="lightslider/css/lightslider.min.css"></require>
     <require from="./scroll-banner.css"></require>
+
+    <ul id="slider">
+        <li repeat.for="banner of banners">
+            <a href="/catalog/${banner['id']}">
+                <img src="http://jazznco/assets/images/Web/banner_scroll/${banner['id']}.jpg"/>
+            </a>
+        </li>
+    </ul>
 
 </template>

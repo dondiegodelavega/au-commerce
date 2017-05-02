@@ -1,4 +1,11 @@
 <template>
     <require from="./home.css"></require>
+    <require from="../../resources/elements/scroll-banner/scroll-banner"></require>
+
     <h1>Home</h1>
+
+    <div id="home-slider">
+        <scroll-banner banners.bind="scrollBanners"></scroll-banner>
+    </div>
+
 </template>
